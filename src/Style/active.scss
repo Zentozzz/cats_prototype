@@ -1,0 +1,104 @@
+.card_active {
+  margin: 14px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 328px;
+  height: 488px;
+  background-color: #d91667;
+  border-radius: 14px;
+  clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%, 0 10%);
+
+  .card_path {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 4px;
+    left: 4px;
+    width: 320px;
+    height: 480px;
+    background-color: #f2f2f2;
+    border-radius: 11px;
+    clip-path: polygon(14.7% 0, 100% 0, 100% 100%, 0 100%, 0 9.7%);
+
+    .text {
+      color: black;
+      display: flex;
+      flex-direction: column;
+      margin: 20px 0 0px 51px;
+      color: #666666;
+
+      p {
+        margin: 0;
+        font-family: 'Trebuchet MS';
+        font-style: normal;
+        font-size: 16px;
+      }
+      .nam {
+        font-weight: 700;
+        font-size: 48px;
+        color: black;
+        margin-top: 5px;
+        margin-bottom: 0;
+      }
+      .name {
+        color: black;
+        margin-top: 0;
+        margin-bottom: 15px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+      }
+
+      .size {
+        font-weight: 200;
+        font-size: 14px;
+      }
+
+      .gift {
+        font-size: 14px;
+        max-width: 150px;
+      }
+    }
+    .cat {
+      position: absolute;
+      top: 208px;
+      img {
+        border-bottom-left-radius: 14px;
+      }
+    }
+
+    .ara {
+      position: absolute;
+      top: 384px;
+      left: 224px;
+      width: 80px;
+      height: 80px;
+      .massa {
+        display: flex;
+        z-index: 1;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: #1698d9;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+        .massa_text {
+          margin: 0;
+          padding: 0;
+          font-weight: 400;
+          font-size: 42px;
+        }
+        p {
+          margin: 0;
+          padding: 0;
+          font-weight: 400;
+          font-size: 21px;
+        }
+      }
+    }
+  }
+}
