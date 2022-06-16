@@ -5,7 +5,10 @@
     "size": 10,
     "gift": 5,
     "gift_text": "мышь в подарок",
-    "massa_text": 0.5
+    "massa_text": 0.5,
+    "text_buttom": "Печень утки разварная с артишоками.",
+    "disable": false,
+    "dasable_text": "Печалька, с фуа-гра закончился."
   },
   {
     "id": 1,
@@ -13,7 +16,10 @@
     "size": 40,
     "gift": 2,
     "gift_text": "мыши в подарок",
-    "massa_text": 2
+    "massa_text": 2,
+    "text_buttom": "Головы щучьи с чесноком да свежайшая сёмгушка.",
+    "disable": false,
+    "dasable_text": "Печалька, с рыбой закончился."
   },
   {
     "id": 2,
@@ -21,6 +27,9 @@
     "size": 100,
     "gift": 5,
     "gift_text": "мышей в подарок заказчик доволен",
-    "massa_text": 5
+    "massa_text": 5,
+    "text_buttom": "Филе из цыплят с трюфелями в бульоне.",
+    "disable": true,
+    "dasable_text": "Печалька, с курой закончился."
   }
 ]

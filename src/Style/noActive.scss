@@ -8,6 +8,7 @@
   background-color: #2ea8e6;
   border-radius: 14px;
   clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%, 0 10%);
+  cursor: pointer;
 
   .card_path {
     position: absolute;
@@ -31,7 +32,7 @@
 
       p {
         margin: 0;
-        font-family: 'Trebuchet MS';
+        font-family: "Trebuchet MS";
         font-style: normal;
         font-size: 16px;
       }

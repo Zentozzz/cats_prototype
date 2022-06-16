@@ -1,5 +1,5 @@
 body {
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
 
   height: 100vh;
   background-image: linear-gradient(
@@ -37,12 +37,12 @@ body {
     grid-column-gap: 80px;
     grid-row-gap: 0px;
 
-    .text_buttom {
+    .wrapper {
       span {
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 15px;
+        font-size: 13px;
         p {
           cursor: pointer;
           color: #1698d9;
