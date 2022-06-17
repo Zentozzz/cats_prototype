@@ -1,10 +1,10 @@
-import "./Style/App.scss";
-import "./Style/active.scss";
-import "./Style/noActive.scss";
-import "./Style/disable.scss";
+import './Style/App.scss';
+import './Style/active.scss';
+import './Style/noActive.scss';
+import './Style/disable.scss';
 
-import List from "./list.jsx";
-import cat from "./assets/cat.json";
+import List from './list.jsx';
+import cat from './assets/cat.json';
 
 function App() {
   return (
